@@ -403,4 +403,87 @@
 </body>
 </html>
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensaje para mi amorcito</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffe6ec;
+      padding: 30px;
+      text-align: center;
+    }
+
+    button3 {
+      background-color: #ec4899;
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      font-size: 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #db2777;
+    }
+
+    .mensaje-container3 {
+      margin-top: 20px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #fff0f5;
+      border: 2px solid #f9c5d1;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: none;
+      text-align: left;
+      white-space: pre-wrap;
+      animation: fadeIn 0.6s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Haz clic para leer un mensaje especial 💌</h2>
+  <button onclick="mostrarMensaje()">Abrir mensaje</button>
+
+  <div id="mensaje" class="mensaje-container3">
+    Hola mi amor sé que hoy estás un poquito distante, y aunque eso me duele un poquito noma , quiero que sepas que no estoy aquí para presionarte ni hacerte sentir mal por eso.
+
+    Ayer cuando hablamos en la madrugada me hizo muy feliz. Sentí que estábamos conectando de nuevo y me dormí con una sonrisa porque te sentí cerca. Pero también entiendo que lo que estás viviendo no se resuelve en una noche.
+
+    Yo sé que estás lidiando con muchas cosas. A veces no sé cómo ayudarte o qué decir para que te sientas mejor, pero lo que sí sé es que te quiero. Y te quiero en tus días buenos, pero también en tus días silenciosos, en los que necesitas espacio o en los que estás procesando todo a tu manera.
+
+    No espero que seas “la novia perfecta”, ni que siempre estés bien. Yo no estoy contigo por expectativas, estoy porque hay algo muy especial en ti que me hace quedarme, incluso cuando se vuelve difícil.
+
+    Si hoy necesitás estar más en silencio, está bien. Solo quiero que sepas que aquí estoy. No te voy a empujar ni a reclamarte ni nada de eso estoy tratando de aprender a acompañarte con amor.
+
+    Y aunque me duela un poco tu distancia, prefiero eso a que sientas que no puedes respirar conmigo cerca. Ojalá cuando sientas que el mundo deja de pesar tanto, puedas volver a mí, no porque te lo pido, sino porque te nace.
+
+    Te abrazo desde Trujiyork, sin apuro. Yo también quiero estar bien y espero volver a ver a mi Channy que me hacía reír con las cosas que le pasaban en el día. Te amuuuuuu 🧡
+  </div>
+
+  <script>
+    function mostrarMensaje() {
+      const mensaje = document.getElementById("mensaje");
+      mensaje.style.display = mensaje.style.display === "none" ? "block" : "none";
+    }
+  </script>
+
+</body>
+</html>
+
+
+
 
